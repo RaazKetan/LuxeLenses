@@ -12,13 +12,8 @@ export const signInWithGoogle = () => ({
   type: type.SIGNIN_WITH_GOOGLE
 });
 
-export const signInWithFacebook = () => ({
-  type: type.SIGNIN_WITH_FACEBOOK
-});
 
-export const signInWithGithub = () => ({
-  type: type.SIGNIN_WITH_GITHUB
-});
+
 
 export const signUp = (user) => ({
   type: type.SIGNUP,
