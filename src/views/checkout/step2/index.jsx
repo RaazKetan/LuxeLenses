@@ -119,7 +119,12 @@ ShippingDetails.propTypes = {
     fullname: PropType.string,
     email: PropType.string,
     address: PropType.string,
-    mobile: PropType.object
+    mobile: PropTypes.shape({
+      country: PropTypes.string,
+      countryCode: PropTypes.string,
+      dialCode: PropTypes.string,
+      value: PropTypes.string
+    })
   }).isRequired,
   shipping: PropType.shape({
     fullname: PropType.string,
