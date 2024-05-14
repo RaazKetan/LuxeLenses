@@ -17,7 +17,7 @@ const Loader = () => (
 
 const UserAccount = () => {
   useScrollTop();
-  useDocumentTitle('My Account | Luxe Lenses');
+  useDocumentTitle('My Account | Salinaka');
 
   return (
     <UserTab>

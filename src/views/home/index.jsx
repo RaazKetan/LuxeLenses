@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 
 
 const Home = () => {
-  useDocumentTitle('LuxeLenses | Home');
+  useDocumentTitle('Salinaka | Home');
   useScrollTop();
 
   const {

@@ -31,7 +31,7 @@ const FormSchema = Yup.object().shape({
 });
 
 const EditProfile = () => {
-  useDocumentTitle('Edit Account | Luxe Lenses');
+  useDocumentTitle('Edit Account | Salinaka');
   useScrollTop();
 
   const modal = useModal();

@@ -5,7 +5,7 @@ import bannerImg from '@/images/banner-guy.png';
 import React from 'react';
 
 const FeaturedProducts = () => {
-  useDocumentTitle('Featured Products | Luxe Lenses');
+  useDocumentTitle('Featured Products | Salinaka');
   useScrollTop();
 
   const {

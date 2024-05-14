@@ -6,7 +6,7 @@ import { shallowEqual, useSelector } from 'react-redux';
 import { selectFilter } from '@/selectors/selector';
 
 const Shop = () => {
-  useDocumentTitle('Shop | Luxe Lenses');
+  useDocumentTitle('Shop | Salinaka');
   useScrollTop();
 
   const store = useSelector((state) => ({
