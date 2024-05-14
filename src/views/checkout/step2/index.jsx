@@ -119,18 +119,23 @@ ShippingDetails.propTypes = {
     fullname: PropType.string,
     email: PropType.string,
     address: PropType.string,
-    mobile: PropTypes.shape({
-      country: PropTypes.string,
-      countryCode: PropTypes.string,
-      dialCode: PropTypes.string,
-      value: PropTypes.string
+    mobile: PropType.shape({
+      country: PropType.string,
+      countryCode: PropType.string,
+      dialCode: PropType.string,
+      value: PropType.string
     })
   }).isRequired,
   shipping: PropType.shape({
     fullname: PropType.string,
     email: PropType.string,
     address: PropType.string,
-    mobile: PropType.object,
+    mobile: PropType.shape({
+      country: PropType.string,
+      countryCode: PropType.string,
+      dialCode: PropType.string,
+      value: PropType.string
+    }),
     isInternational: PropType.bool,
     isDone: PropType.bool
   }).isRequired
